@@ -4,21 +4,21 @@
 
 ## 在 TypeScript 中使用 ESLint
 
-<!-- ESLint 可以安装在当前项目中或全局环境下 -->
+ESLint 可以安装在当前项目中或全局环境下
 
 `npm install --save-dev eslint`
 
-<!-- 替代掉默认的解析器，别忘了同时安装 typescript -->
+替代掉默认的解析器，别忘了同时安装 typescript
 
 `npm install --save-dev typescript @typescript-eslint/parser`
 
-<!-- eslint 默认规则的补充 -->
+eslint 默认规则的补充
 
 `npm install --save-dev @typescript-eslint/eslint-plugin`
 
 ### 创建配置文件
 
-<!-- .eslintrc.js 或 .eslintrc.json -->
+.eslintrc.js 或 .eslintrc.json
 
 ```js
 module.exports = {
@@ -33,7 +33,7 @@ module.exports = {
 }
 ```
 
-<!-- package.json 中添加一个 script -->
+package.json 中添加一个 script
 
 ```json
 {
@@ -55,14 +55,14 @@ module.exports = {
 
 ### 在 VSCode 中集成 ESLint 检查
 
-<!-- 省略（本人github上有vscode整体配置） -->
+省略（本人 github 上有 vscode 整体配置）
 
 ### 使用 Prettier 修复格式错误
 
 1. 安装 prettier
    `npm install --save-dev prettier`
 
-<!-- 创建一个 prettier.config.js 文件 -->
+创建一个 prettier.config.js 文件
 
 ```js
 // prettier.config.js or .prettierrc.js
@@ -107,7 +107,7 @@ module.exports = {
 
 2. VSCode 中的 Prettier 插件
 
-<!-- .vscode/settings.json -->
+.vscode/settings.json
 
 ```json
 {
@@ -132,7 +132,7 @@ module.exports = {
 
 `npm install --save-dev eslint typescript @typescript-eslint/parser @typescript-eslint/eslint-plugin eslint-config-alloy`
 
-<!-- .eslintrc.js -->
+.eslintrc.js
 
 ```js
 module.exports = {
@@ -164,13 +164,13 @@ module.exports = {
 
 1.
 
-<!-- 安装 eslint-plugin-react -->
+安装 eslint-plugin-react
 
 `npm install --save-dev eslint-plugin-react`
 
 2.
 
-<!-- package.json 中的 scripts.eslint 添加 .tsx 后缀 -->
+package.json 中的 scripts.eslint 添加 .tsx 后缀
 
 ```json
 {
